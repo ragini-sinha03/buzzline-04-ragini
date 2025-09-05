@@ -248,10 +248,10 @@ To kill the terminal, hit CTRL c (hold both CTRL key and c key down at the same 
 
 When resuming work on this project:
 
-1. Open the folder in VS Code.
-2. Start the Zookeeper service.
-3. Start the Kafka service.
-4. Activate your local project virtual environment (.env).
+1. Open the project repository folder in VS Code. 
+2. Start the Kafka service (use WSL if Windows) and keep the terminal running. 
+3. Activate your local project virtual environment (.venv) in your OS-specific terminal.
+4. Run `git pull` to get any changes made from the remote repo (on GitHub).
 
 ## After Making Useful Changes
 
