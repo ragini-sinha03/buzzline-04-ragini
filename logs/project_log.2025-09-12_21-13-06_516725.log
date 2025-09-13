@@ -1,0 +1,3 @@
+2025-09-12 21:13:06 | INFO | Message received from author: Charlie
+2025-09-12 21:13:06 | INFO | Updated author counts: {'Bob': 1482, 'Alice': 2095, 'Diana': 2355, 'Eve': 1482, 'Charlie': 1311}
+2025-09-12 21:13:06 | INFO | Chart updated successfully for message: {"message": "I love Python!", "author": "Charlie"}
