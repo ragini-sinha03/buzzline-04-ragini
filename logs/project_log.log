@@ -1,1 +1,1 @@
-2025-09-12 21:13:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T04:13:08.692820', 'temperature': 81.6}
+2025-09-16 12:49:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}

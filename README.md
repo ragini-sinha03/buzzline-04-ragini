@@ -229,6 +229,38 @@ Which aspects are similar between the different types of data?
 
 When done, remember to kill the associated terminals for the producer and consumer.
 
+
+## How to Run Your Custom Consumer (project_consumer_ragini.py)
+
+To run the custom consumer and visualize buzz message counts per author:
+
+1. **Start your Kafka broker** and ensure it is running.
+2. **Activate your Python virtual environment**:
+   - On Mac/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows (PowerShell):
+     ```powershell
+     .venv\Scripts\Activate.ps1
+     ```
+3. **Install dependencies** (if not already done):
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run your producer** to send messages to the Kafka topic:
+   ```bash
+   PYTHONPATH=. python3 producers/json_producer_case.py
+   ```
+5. **Run your custom consumer** in a separate terminal:
+   ```bash
+   PYTHONPATH=. python3 consumers/project_consumer_ragini.py
+   ```
+6. **View the live bar chart** window that appears. The chart will update in real time as messages arrive.
+
+If you see any errors about missing packages, install them using pip. If you see errors about Kafka connectivity, ensure your broker is running and the topic name matches your `.env` configuration.
+
+---
 ## Possible Explorations
 
 - JSON: Process messages in batches of 5 messages.
